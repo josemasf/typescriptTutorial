@@ -12,3 +12,11 @@ export class Deportista{
 export interface Futbolista{
     tieneBalon: boolean;
 }
+
+
+function trablenguasMUyDificilasYlasrgo():void  {
+    console.log("trablenguasMUyDificilasYlasrgo");
+}
+
+
+export {trablenguasMUyDificilasYlasrgo as simple};

@@ -9,3 +9,7 @@ var Deportista = (function () {
     return Deportista;
 })();
 exports.Deportista = Deportista;
+function trablenguasMUyDificilasYlasrgo() {
+    console.log("trablenguasMUyDificilasYlasrgo");
+}
+exports.simple = trablenguasMUyDificilasYlasrgo;
