@@ -3,13 +3,13 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Animal = (function () {
-    function Animal() {
+var Mascota = (function () {
+    function Mascota() {
     }
-    Animal.prototype.caminar = function (distancia) {
+    Mascota.prototype.caminar = function (distancia) {
         console.log("Se mueve " + distancia + " metros");
     };
-    return Animal;
+    return Mascota;
 })();
 var Gato = (function (_super) {
     __extends(Gato, _super);
@@ -20,7 +20,7 @@ var Gato = (function (_super) {
         console.log("Miauuuuuu");
     };
     return Gato;
-})(Animal);
+})(Mascota);
 var gatito = new Gato();
 gatito.caminar(5);
 gatito.maullar();

@@ -1,11 +1,11 @@
-class Animal{
+class Mascota{
     caminar(distancia: number):void{
         console.log(`Se mueve ${distancia} metros`);
 
     }
 }
 
-class Gato extends Animal{
+class Gato extends Mascota{
     maullar():void{
         console.log("Miauuuuuu");
     }
